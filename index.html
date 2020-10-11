@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green green Coffe</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+</head>
+
+<body>
+  <header>
+    <!--NAVBAR-->
+<nav class="navbar navbar-expand-sm navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+       Green green Coffe</a>
+    <button class="navbar-toggler" 
+            type="button" 
+            data-toggle="collapse" 
+            data-target="#navbarSupporterContent"
+            aria-controls="navbarSupporterContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"> </span>
+    </button >
+
+  <div class="collapse navbar-collapse" id="navbarSupporterContent">
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item active">
+      <a class="nav-link" href="#home">HOME</a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" href="#nosotros">NOSOTROS</a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" href="#productos">PRODUCTOS</a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" href="#agendaTuVisita">AGENDA TU VISITA</a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" href="#contacto">CONTACTO</a>
+    </li>
+  </ul>
+ </div>
+  </div>
+</nav>
+</header>
+
+<hr>
+
+<!--TITULO PRINCIPAL-->
+<div class="container">
+  <h1>Green green Coffe <small>"Un momento para vos"</small></h1>
+</div>
+
+<hr>
+
+<!--CARROUSEL-->
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" id="home">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./img/coffe.jpeg" class="d-block w-100" alt="cafe">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/tienda2.jpg" class="d-block w-100" alt="tienda">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/vidrio.jpeg" class="d-block w-100" alt="vidrio">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<hr>
+
+<!--Mensaje pandemia-->
+<div class="container">
+  <h2>Cumplimos con todas las normas y protocolos para protegerte</h2>
+  <p>"Sabor y aroma a donde vayas"</p>
+</div>
+
+<hr>
+
+
+<!--NOSOTROS-->
+<section class="container-fluid p-0 mt-5" id="nosotros">
+  <hr>
+  <h3>NOSOTROS</h3>
+  <p>La primer Tienda de Cafe se fundo en 1918, en la Ciudad de Buenos Aires, mas precisamente el barrio de Recoleta. Con mas de un siglo de experiencia, la marca se convirtio en signo de excelencia y confianza para nuestros clientes. Cuatro generaciones pudieron degustar de nuestro sabor unico siempre pensando en innovar y adaptarse a los nuevos tiempos. Seguimos creciendo gracias a ustedes, por eso queremos decirles GRACIAS!</p>
+  <video src="./videos/cafe.mp4" width="100%" height="100%" autoplay loop controls>
+    <p>El video no esta disponible...</p>
+  </video>
+</section>
+
+<hr>
+
+
+<!--PRODUCTOS-->
+<div class="container-fluid" id="productos">
+  <h2>PRODUCTOS</h2>
+</div>
+
+<hr>
+
+<!--tarjetas-->
+<div class="container">
+    <div class="row">
+      
+        <div col-xs-6 col-md-3>
+          <div class="thumbnail">
+            <div class="caption">
+        <img class="img-thumbnail" src="./img/capuccinoconpepitasdechocolate.jpeg" alt="cortado con conitos o pepitos">
+        <h3>Capuccino con Pepitos</h3>    
+        <p>Capuccino con galletitas "pepitos". Deliciosas galletitas con chips de chocolate.<br>
+               Para comenzar el dia con un buen sabor. <br>
+               Te esperamos en nuestras tiendas!</p>    
+            <div class="container badge-danger text-center font-weight-bold form-control-range">
+            <span class="precio-item"><sup>$</sup><span class="precio">150</span></span>
+            </div>
+      </div>
+         </div>
+    </div>
+
+
+
+          <div col-xs-6 col-md-3>
+            <div class="thumbnail">
+              <div class="caption">
+          <img class="img-thumbnail" src="./img/cortado.jpeg" alt="cortado con conitos o pepitos">
+          <h3>Capuccino</h3>
+          <p>Un capuchino contiene expreso, vapor y espuma de leche a partes iguales. <br>
+            La taza de un capuchino es más pequeña que la taza del café latte,<br>
+             generalmente de 150 a 180 ml.</p>
+             <div class="container badge-danger text-center font-weight-bold form-control-range">
+              <span class="precio-item"><sup>$</sup><span class="precio">120</span></span>
+              </div>
+
+              </div>
+             </div>
+      
+          </div>
+
+         <div col-xs-6 col-md-3>
+         <div class="thumbnail">
+           <div class="caption">
+         <img class="img-thumbnail" src="./img/cafecongalletita.jpeg" alt="cortado con conitos o pepitos">
+         <h3>Cortado</h3>
+         <p>Un cortado es un término de origen español para denominar a un café <br>
+           expreso con una pequeña cantidad de leche normalmente caliente para quitarle<br>
+            un toque de amargor. En algunos lugares se le denomina cortado con leche para<br>
+             diferenciarlo del "cortado con agua". </p>
+            <div class="container badge-danger text-center font-weight-bold form-control-range">
+              <span class="precio-item"><sup>$</sup><span class="precio">110</span></span>
+              </div>
+         </div>
+         </div>
+         </div>
+
+         <div col-xs-6 col-md-3>
+           <div class="thumbnail">
+              <img class="img-thumbnail" src="./img/cafenegro.jpeg" alt="cortado con conitos o pepitos">
+               <div class="caption">
+                  <h3>Black Coffe</h3>
+                  <p>Bebida que se prepara con café molido y agua,
+                     consumido por lo general en </br> todas partes de México.
+                     Antiguamente se hacía sólo con café de grano, Pero </br>
+                     en las últimas décadas el café instantáneo ha ganado 
+                     mucho terreno. </br> Conocido también como café americano.</p>
+                     <div class="container badge-danger text-center font-weight-bold form-control-range">
+                     <span class="precio-item"><sup>$</sup><span class="precio">100</span></span>
+                     </div>
+               </div>
+           </div>
+         </div>
+    </div>
+</div>
+<hr>
+
+<!--AGENDA TU VISITA-->
+<div class="container-fluid bg-warning" id="agendaTuVisita">
+<h2>AGENDA TU VISITA</h2>
+
+<p>Por disposición del Gobierno de la Ciudad de Buenos Aires, frente a la pandemia del COVID-19 (Coronavirus) y para contener su transmisión, Green green Coffe te propone que agendes una visita, si es que quieres consumir en las mesas del exterior del local. Para ello comunicate al <strong> 011 4407 6333 </strong>o mandanos un mail ingresando al boton que se ubica <strong>aqui abajo</strong> . Nuestros horarios son de <strong> Lunes a sabados de 8.30am a 15pm. </strong> Te esperamos! </p>
+<div class="content text-center">
+<a href="./visita.html" class="btn btn-danger text-white badge-pill" target="_blank">Agenda tu vivista</a>
+</div>
+<hr>
+</div>
+
+<hr>
+
+<section class="container-fluid bg-info">
+  <div class="row justify-content-center">
+    <h3 class="text-center col-12 text-white">CONTACTO</h3>
+  <div class="col-xl-6 col-lg-6 col-xs-12">
+    <form method="POST" action="#">
+      <div class="form-group">
+        <label for="nc">Nombre completo<span class="text-white">*</span></label>
+        <input type="text" placeholder="nombre completo" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="mail">Correo electronico<span class="text-white">*</span></label>
+        <input type="email" placeholder="ejemplo@gmail.com" class="form-control">
+      </div>
+  <div class="form group">
+    <label for="comentario">Comentario<span class="text-white">*</span></label>
+    <textarea id="comentario" placeholder="Comentario" class="form-control"></textarea>
+  </div>
+<br/>
+  <button class="btn btn-outline-primary btn-block">Enviar</button>
+  <br>
+    </form>
+  </div>
+</section>
+
+
+<footer class="container-fluid footer" id="contacto">
+  <div class="row justify-content-center align-items-center ">
+  <div class="col-lg-3 col-md-3 col-12 text-center">
+    <address>
+      <p>greengreencoffe@gmail.com</p>
+    </address>
+    <p class="strong"> # 011 4407 6333</p>
+  </div>
+  <div class="col-lg-3 col-md-3 col-12 text-center ">
+    <p>Copyright © Green green Coffe</p>
+  </div>
+  <div class="col-lg-3 col-md-3 col-12 text-center">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13136.966155905404!2d-58.44990337016749!3d-34.59805327428818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca0c687ee0b7%3A0x879b67a1fd77fb98!2sVilla%20Crespo%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1598503163681!5m2!1ses-419!2sar" width="100%" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </div>
+  </div>
+      </footer>
+
+
+
+
+  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+</html>

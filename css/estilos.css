@@ -1,0 +1,48 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+header{
+background-color: black;
+}
+
+.navbar {
+  color: white;
+  background-color:black;
+}
+
+h1{
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+.precio{
+  font-size: 1rem;
+}
+
+.fondoform {
+  background-image: url(../img/tienda2.jpg);
+  background-size: cover;
+}
+
+footer{
+background-color: black;
+color: white;
+font-size: 14px;
+
+}
